@@ -15,5 +15,15 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ---
 
+# 最初だけ
+
 - cdk init --language typescript
--
+- npx cdk bootstrap
+
+# よく使いそうなコマンド
+
+- npx cdk ls
+- npx cdk synth [STACKS..]
+- npx cdk deploy [STACKS..]
+- npx cdk destroy [STACKS..]
+- cdk diff [STACKS..]
